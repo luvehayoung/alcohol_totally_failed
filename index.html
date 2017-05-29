@@ -1,0 +1,76 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Drink</title>
+    <style>
+        *{padding:0; margin:0;}
+        ul li{
+            list-style:none;
+        }
+        .clearfix:after{
+            content: "";
+            display: block;
+            clear: both;
+        }
+
+        body{
+            background-image:url(img/bg_edited.png);
+            background-size:100% auto;
+        }
+        header{
+            width:1400px;
+            margin:14px auto;
+        }
+        
+        header .logo{
+            float:left;
+        }
+        
+        header .nav{
+            float:right;
+           
+        }
+        
+        header .nav ul li{
+            float:left;
+            width:170px;
+            color:white;
+            margin-top:30px;
+        }
+        
+        main{
+            margin:auto;
+            width:1400px;
+            position:relative;
+            padding-top:250px;
+        }
+        main .cup{
+            position:absolute;
+            left:50%;
+            margin-left:-150px;
+        }
+    </style>
+
+</head>
+<body>
+
+<header class="clearfix">
+    <div class="logo"><img src="img/logo.png" width="140"></div>
+    <div class="nav">
+        <ul>
+            <li>About alcohol</li>
+            <li>Show alcohol</li>
+            <li>Order alcohol</li>
+        </ul>
+    </div>
+</header>
+
+
+<main>
+    <div class="cup"><img src="img/cup.png" width="300"></div>
+</main>
+
+
+</body>
+</html>
